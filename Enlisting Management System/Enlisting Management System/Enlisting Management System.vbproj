@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7F4D641-5F1A-4029-8478-66188BF7668A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Enlisting_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>Enlisting_Management_System</RootNamespace>
+    <AssemblyName>Enlisting Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Enlisting Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Enlisting Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\About Us\AboutUs.Designer.vb">
+      <DependentUpon>AboutUs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\About Us\AboutUs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Contact Developer\ContactMe.Designer.vb">
+      <DependentUpon>ContactMe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Contact Developer\ContactMe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\CourseAdd.Designer.vb">
+      <DependentUpon>CourseAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\CourseAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\CourseUpdate.Designer.vb">
+      <DependentUpon>CourseUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\CourseUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login%27s Form\AdminLogin.Designer.vb">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login%27s Form\AdminLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login%27s Form\StaffLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login%27s Form\StaffLogin.Designer.vb">
+      <DependentUpon>StaffLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main Menu\MainMenuAdmin.designer.vb">
+      <DependentUpon>MainMenuAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main Menu\MainMenuAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main Menu\MainMenuStaff.Designer.vb">
+      <DependentUpon>MainMenuStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main Menu\MainMenuStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Subforms\Archived.Designer.vb">
+      <DependentUpon>Archived.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Subforms\Archived.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\ArchivedUpdate.Designer.vb">
+      <DependentUpon>ArchivedUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\ArchivedUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Subforms\Course.Designer.vb">
+      <DependentUpon>Course.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Subforms\Course.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Subforms\Listing.Designer.vb">
+      <DependentUpon>Listing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Subforms\Listing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\ListingAdd.Designer.vb">
+      <DependentUpon>ListingAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\ListingAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Subforms\PaperSize.vb" />
+    <Compile Include="Forms\Subforms\StudentInformation.Designer.vb">
+      <DependentUpon>StudentInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Subforms\StudentInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\StudentInformationAdd.Designer.vb">
+      <DependentUpon>StudentInformationAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\StudentInformationAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\StudentInformationUpdate.Designer.vb">
+      <DependentUpon>StudentInformationUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog Forms\StudentInformationUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemModule.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\About Us\AboutUs.resx">
+      <DependentUpon>AboutUs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Contact Developer\ContactMe.resx">
+      <DependentUpon>ContactMe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog Forms\CourseAdd.resx">
+      <DependentUpon>CourseAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog Forms\CourseUpdate.resx">
+      <DependentUpon>CourseUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login%27s Form\AdminLogin.resx">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login%27s Form\StaffLogin.resx">
+      <DependentUpon>StaffLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main Menu\MainMenuAdmin.resx">
+      <DependentUpon>MainMenuAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main Menu\MainMenuStaff.resx">
+      <DependentUpon>MainMenuStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Subforms\Archived.resx">
+      <DependentUpon>Archived.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog Forms\ArchivedUpdate.resx">
+      <DependentUpon>ArchivedUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Subforms\Course.resx">
+      <DependentUpon>Course.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Subforms\Listing.resx">
+      <DependentUpon>Listing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog Forms\ListingAdd.resx">
+      <DependentUpon>ListingAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Subforms\StudentInformation.resx">
+      <DependentUpon>StudentInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog Forms\StudentInformationAdd.resx">
+      <DependentUpon>StudentInformationAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog Forms\StudentInformationUpdate.resx">
+      <DependentUpon>StudentInformationUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

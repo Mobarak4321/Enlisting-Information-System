@@ -1,0 +1,30 @@
+c:\users\mobarak dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\bin\Debug\Enlisting Management System.exe.config
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\bin\Debug\Enlisting Management System.exe
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\bin\Debug\Enlisting Management System.pdb
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\bin\Debug\Enlisting Management System.xml
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.Course.resources
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.Listing.resources
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.StudentInformation.resources
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.Resources.resources
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting Management System.vbproj.GenerateResource.Cache
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting Management System.exe
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting Management System.xml
+C:\Users\Mobarak Dimalotang\documents\visual studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting Management System.pdb
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.StudentInformationAdd.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.StudentInformationUpdate.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.ListingAdd.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.Archived.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.ArchivedUpdate.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.CourseUpdate.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.CourseAdd.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.Home.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.StaffLogin.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.MainMenuAdmin.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.MainMenuStaff.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.AdminLogin.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.ContactMe.resources
+C:\Users\Mobarak Dimalotang\Documents\Visual Studio 2012\Projects\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting_Management_System.AboutUs.resources
+C:\Users\Mobarak Dimalotang\Documents\Programming Project\Desktop Development\VB.Net Project\Enlisting Management System\Enlisting Management System\bin\Debug\Enlisting Management System.exe.config
+C:\Users\Mobarak Dimalotang\Documents\Programming Project\Desktop Development\VB.Net Project\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting Management System.exe
+C:\Users\Mobarak Dimalotang\Documents\Programming Project\Desktop Development\VB.Net Project\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting Management System.xml
+C:\Users\Mobarak Dimalotang\Documents\Programming Project\Desktop Development\VB.Net Project\Enlisting Management System\Enlisting Management System\obj\Debug\Enlisting Management System.pdb
